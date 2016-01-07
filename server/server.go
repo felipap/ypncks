@@ -70,6 +70,7 @@ func main() {
 		port = "5000"
 	}
 
+	fmt.Printf("=======================\n\n\n\n===============\n==================\n===================PUTA UQE ME PARIU!!\n")
 	log.Printf("ADDR: %s\n", os.Getenv("REDIS_ADDR"))
 	rconn = startRedis()
 	defer closeRedis(rconn)
