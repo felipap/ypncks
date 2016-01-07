@@ -52,6 +52,7 @@ func startRedis() redis.Conn {
 
 	client, err := redis.Dial("tcp", addr, redis.DialDatabase(dbIndex))
 	if err != nil {
+		log.Fatalf("PUTAQUEPARIU!!!!")
 		panic("Failed to start redis.\n" + err.Error())
 	}
 
